@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "server": "nodemon index.js",
-    "start": "node index",
+    "start": "node index.js",
     "migrate": "knex migrate:latest",
     "rollback": "knex migrate:rollback",
     "reset": "npm run rollback && npm run migrate && npm run seed",
@@ -16,8 +16,9 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-middleware": "^3.4.2",
     "knex": "^0.95.6",
-    "node": "^16.1.0",
+    "middleware": "^1.0.0",
     "sqlite3": "^5.0.2"
   },
   "description": "- [ ] Fork and clone the repository.\r - [ ] Implement your project in a `firstname-lastname` branch.\r - [ ] Create a pull request of `firstname-lastname` against your `main` branch.\r - [ ] Open the assignment in Canvas and submit your pull request.",

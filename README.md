@@ -107,3 +107,14 @@ The representation **sent to the server** _could_ look like the following:
   ]
 }
 ```
+<!-- Recipes Table:
+PK - recipe_id, recipe_name
+
+Ingredients Table:
+PK - ingredients_id, ingredients_name, ingredients_unit
+
+Steps Table: 
+PK - step_id, step_txt, step_order, FK - recipe_id
+
+Step_Ingredients table: 
+PK - stepIngredients_id, FK - step_id, FK - ingredients_id, quantity -->
